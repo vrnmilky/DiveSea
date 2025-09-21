@@ -3,3 +3,6 @@
 @use 'base/mixins' as *;
 @use 'base/typography' as *;
 
+@use 'block/header' as *;
+@use 'block/nav' as *;
+@use 'block/search' as *;

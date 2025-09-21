@@ -1,0 +1,25 @@
+.nav {
+  &__list {
+    display: flex;
+    column-gap: 53.5px;
+  }
+  &__link {
+    font-family: var(--second-family);
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 150%;
+    text-transform: uppercase;
+    color: #606060;
+  }
+}
+@media (max-width: 1024px) {
+  .nav {
+    &__list {
+      display: flex;
+      column-gap: 38px;
+    }
+    &__link {
+      font-size: 12px;
+    }
+  }
+}

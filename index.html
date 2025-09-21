@@ -6,11 +6,44 @@
     <link rel="stylesheet" href="css/styles.css" />
     <script src="js/main.js" defer></script>
     <!-- <link rel="icon" href="favicon.ico" /> -->
-    <title>Мой проект</title>
+    <title>DiveSea</title>
   </head>
   <body>
-    <header>
-      <h1>Добро пожаловать на мой сайт</h1>
+    <header class="header">
+      <div class="container header__container">
+        <a href="#!" class="header__logo">
+          <img
+            src="/assets/icons/Logo.svg"
+            alt="logo"
+            class="header__logo_img"
+            width="53"
+            height="53"
+          />
+        </a>
+        <nav class="nav header__nav">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#!" class="nav__link">Discover</a>
+            </li>
+            <li class="nav__item">
+              <a href="#!" class="nav__link">creators</a>
+            </li>
+            <li class="nav__item"><a href="#!" class="nav__link">Sell</a></li>
+            <li class="nav__item"><a href="#!" class="nav__link">stats</a></li>
+          </ul>
+        </nav>
+        <div class="search header__search">
+          <div class="search__wrapper">
+            <img src="/assets/icons/search.svg" alt="" class="search__icon" />
+            <input
+              type="search"
+              class="search__input"
+              placeholder="Search Art Work / Creator"
+            />
+          </div>
+        </div>
+        <a href="#!" class="header__button">Connect Wallet</a>
+      </div>
     </header>
 
     <main>
